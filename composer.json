@@ -1,0 +1,26 @@
+{
+    "name": "piksera/piksera-class-alias",
+    "description": "PHP Piksera class alias.",
+    "version" : "0.7",
+    "authors": [
+        {
+            "name": "Piksera",
+            "email": "info@piksera.com"
+        },
+	{
+            "name": "Noah Wells",
+            "email": "noah@piksera.com"
+        }
+  ],
+   "autoload": {
+	"classmap": ["src/Input.php"],
+    "psr-4": {
+      "Piksera\\": "src/Piksera/"
+    }
+  },
+  "homepage": "http://piksera.com",
+  "license": "MIT",
+  "support": {
+    "email": "support@piksera.com"
+  }
+}
